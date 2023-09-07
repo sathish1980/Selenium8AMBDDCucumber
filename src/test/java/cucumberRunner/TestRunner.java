@@ -6,8 +6,8 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/java/Features/MakeMyTrip.feature",
-glue="StepDefenition",monochrome=true,publish=true)
+@CucumberOptions(features={"src/test/java/Features/SearchMakeMyTrip.feature"},
+glue="StepDefenition",monochrome=true,publish=true,tags="@SIT")
 public class TestRunner {
 
 }
